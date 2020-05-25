@@ -82,6 +82,7 @@ function randomColor() {
 */
 
 function setRandomBackgroundColor() {
+  //code borrowed from https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
   document.body.style.backgroundColor = randomColor();
 }
 /***
